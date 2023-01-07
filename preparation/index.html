@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>YAML Course documentation</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Preparation - YAML Course documentation</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">YAML Course documentation</a>
+                <a class="navbar-brand" href="..">YAML Course documentation</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,17 +33,17 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Welcome to YAML Course documentation</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../cheat_sheet/" class="nav-link">YAML Cheat Sheet</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../introduction/" class="nav-link">Introduction</a>
+                            </li>
                             <li class="navitem active">
-                                <a href="." class="nav-link">Welcome to YAML Course documentation</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="cheat_sheet/" class="nav-link">YAML Cheat Sheet</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="introduction/" class="nav-link">Introduction</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="preparation/" class="nav-link">Preparation</a>
+                                <a href="./" class="nav-link">Preparation</a>
                             </li>
                         </ul>
 
@@ -54,12 +54,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
+                                <a rel="prev" href="../introduction/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="cheat_sheet/" class="nav-link">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -81,16 +81,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#welcome-to-yaml-course-documentation" class="nav-link">Welcome to YAML Course documentation</a>
+            <li class="nav-item" data-level="1"><a href="#preparation" class="nav-link">Preparation</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#course-details" class="nav-link">Course details</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#content" class="nav-link">Content</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -98,14 +90,14 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="welcome-to-yaml-course-documentation">Welcome to YAML Course documentation</h1>
-<p>The documentation serves the course for YAML.</p>
-<h2 id="course-details">Course details</h2>
-<h2 id="content">Content</h2>
+<h1 id="preparation">Preparation</h1>
 <ol>
-<li><a href="introduction/">Introduction</a></li>
-<li><a href="preparation/">Preparation</a></li>
-<li><a href="cheat_sheet/">YAML Cheat Sheet</a></li>
+<li>Download the <code>source code</code> from the following git repository - YAML</li>
+<li>
+<p>Download the extension <a href="https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml">YAML - REDHAT</a>. Alternatively you can use the following command in the command pallete in VS-code</p>
+<p><code>ext install redhat.vscode-yaml</code>
+3. Watch the videos and practice.</p>
+</li>
 </ol></div>
             </div>
         </div>
@@ -115,11 +107,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -184,8 +176,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.4.2
-Build Date UTC : 2023-01-07 12:01:33.426172+00:00
--->
