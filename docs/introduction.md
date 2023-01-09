@@ -12,9 +12,8 @@ Serialization is often used when data needs to be persisted to a file or databas
 
 There are many different data serialization languages, including JSON, XML, YAML, and Protocol Buffers. Each language has its own syntax and set of rules for encoding data, and different languages may be better suited for different use cases.
 
-
-
 ## Difference between YAML/JSON & XML
+
 XML, JSON, and YAML are all data serialization languages, which means they are used to translate complex data structures into a format that can be easily stored and transmitted. Here are some key differences between these formats:
 
 - Syntax: XML uses a tag-based syntax, with elements nested inside each other using start and end tags. JSON uses a key-value syntax, with keys and values separated by a colon and nested elements indicated using curly braces. YAML uses a combination of key-value pairs and lists, with a minimal syntax that relies on indentation to indicate nesting.

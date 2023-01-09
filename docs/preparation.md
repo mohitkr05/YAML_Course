@@ -6,4 +6,5 @@
     ```
     ext install redhat.vscode-yaml
     ```
-3. Watch the videos and practice.
+3. Download the source code from here
+4. Watch the videos and practice.
