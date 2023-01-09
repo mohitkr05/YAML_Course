@@ -1,0 +1,14 @@
+Car_Models:
+  C_class:
+    grade: C
+    status: Available
+  E_Class:
+    grade: E
+    status: Waiting
+
+c: &c
+  grade: C
+  status: Available
+
+
+  

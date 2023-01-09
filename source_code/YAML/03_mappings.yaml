@@ -1,0 +1,6 @@
+# Key value pair are termed as Mappings
+
+# Mappings
+vehicle_type: car
+wheels: 4
+car_type: sedan
