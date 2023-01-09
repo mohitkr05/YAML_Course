@@ -1,0 +1,8 @@
+# Key value pair are termed as Mappings
+
+# Int
+
+number_of_wheels: 4
+length_in_mtrs: 1.76
+is_new: True
+
