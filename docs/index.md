@@ -6,7 +6,7 @@ The documentation serves the course for YAML.
 
 ## Content
 
-1. [Introduction](introduction.md)
-2. [Preparation](preparation.md)
-3. [YAML Cheat Sheet](cheat_sheet.md)
+1. [Introduction](chapters/01_introduction.md)
+2. [Preparation](chapters/preparation.md)
+3. [YAML Cheat Sheet](chapters/cheat_sheet.md)
 4. [Source Code](source_code.md)
