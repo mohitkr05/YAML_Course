@@ -1,10 +1,24 @@
 # Introduction to YAML - A hands-on course
 
+Documentation URL -  https://mohitkr05.github.io/YAML_Course/
+
 ## About this repository
 
 This Git repository serves as the main code for the course.
 
 ## How to use this repository
+
+- Read the course documentation online - [Click here](https://mohitkr05.github.io/YAML_Course/)
+- Clone this repository 
+
+    `git clone https://github.com/mohitkr05/YAML_Course.git`
+
+- Go to the source code 
+
+    `cd source_code`
+
+- Access the files & code. 
+
 
 
 ## About the course
