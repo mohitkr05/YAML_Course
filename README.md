@@ -1,4 +1,7 @@
-# Introduction to YAML - A hands-on course
+# Introduction to YAML
+
+The complete hands-on course for YAML.
+
 
 ![Linting Status](https://github.com/mohitkr05/YAML_Course/actions/workflows/yamllint.yml/badge.svg)
 
