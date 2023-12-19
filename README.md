@@ -1,5 +1,7 @@
 # Introduction to YAML - A hands-on course
 
+![Linting Status](https://github.com/mohitkr05/YAML_Course/actions/workflows/yamllint.yml/badge.svg)
+
 Documentation URL -  https://mohitkr05.github.io/YAML_Course/
 
 ## About this repository
