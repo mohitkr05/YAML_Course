@@ -4,6 +4,13 @@
 
 YAML (YAML Ain't Markup Language) is a human-readable data serialization language. It is often used for configuration files and in applications where data is being stored or transmitted.
 
+### References
+
+- [Official website](https://yaml.org/)
+- [YAML Specifications](https://github.com/yaml/yaml-spec)
+- [YAML Grammar](https://github.com/yaml/yaml-grammar)
+- [YAML test suite](https://github.com/yaml/yaml-test-suite)
+
 ## What is a data serialization language?
 
 A data serialization language is a way of encoding data structures and objects so that they can be stored or transmitted efficiently. Serialization involves converting the data into a format that can be easily stored or transmitted, such as a text or binary file.
@@ -11,6 +18,20 @@ A data serialization language is a way of encoding data structures and objects s
 Serialization is often used when data needs to be persisted to a file or database, or when it needs to be transmitted over a network connection. Serialization languages provide a way to represent the data in a structured way that can be easily interpreted by other systems or applications.
 
 There are many different data serialization languages, including JSON, XML, YAML, and Protocol Buffers. Each language has its own syntax and set of rules for encoding data, and different languages may be better suited for different use cases.
+
+
+## YAML Goals
+
+The design goals for YAML are, in decreasing priority:
+
+ - YAML should be easily readable by humans.
+ - YAML data should be portable between programming languages.
+ - YAML should match the native data structures of dynamic languages.
+ - YAML should have a consistent model to support generic tools.
+ - YAML should support one-pass processing.
+ - YAML should be expressive and extensible.
+ - YAML should be easy to implement and use.
+
 
 ## Difference between YAML/JSON & XML
 
@@ -55,4 +76,16 @@ XML, JSON, and YAML are all data serialization languages, which means they are u
 
 
 ## Development timeline
+
+| Year | Description |
+| ---- | ----------- |
+| 2001 | YAML was first released in Perl. |
+| 2003 | The first YAML framework was written in Ruby. |
+| 2004 | The YAML 1.0 specification was published.   By Clark Evans, Oren Ben-Kiki, and Ingy döt Net after 3 years of collaborative design work through the yaml-core mailing list. |
+| 2005 | The YAML 1.1 specification was published | 
+| 2006 | Kyrylo Simonov produced PyYAML and LibYAML | 
+| 2009 | The YAML 1.2 specification was published, it's primary focus was making YAML a strict superset of JSON | 
+| 2020 | New YAML language design team formed to work on YAML improvements | 
+| 2021 | This YAML 1.2.2 specification was published | 
+
 
