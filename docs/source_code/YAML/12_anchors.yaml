@@ -10,6 +10,3 @@ Car_Models:
 c: &c
   grade: C
   status: Available
-
-
-  

@@ -1,21 +1,13 @@
 ---
 # Key value pair are termed as Mappings
-
 # Int
-
 number_of_wheels: 4
-
 # float
 length_in_mtrs: 1.76
-
-
 # Infinity
-inf: -.inf 
-
+inf: -.inf
 # Nana
-nan: .nan
-
+nan: .nan\
 # Null values
-
 !!null null: this_has_None_key
 this_is_null: !!null null

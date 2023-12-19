@@ -1,9 +1,7 @@
 ---
 ## Explicit definitions
-
 wheels: !!int -4
 wheels_1: !!int 1
-
 length: !!float 20
 positive: !!float 2.3e4
 infinity: !!float .inf

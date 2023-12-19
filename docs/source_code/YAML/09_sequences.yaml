@@ -1,10 +1,6 @@
 ---
 # Sequences
-
 features: [airbags, automatic driving]
 layout:
   - Front-engine
-  - Rear wheel drive 
-
-
-
+  - Rear wheel drive

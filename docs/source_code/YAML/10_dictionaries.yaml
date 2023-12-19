@@ -1,15 +1,9 @@
 ---
 # Dictionaries
-
 layout:
   - Front:
-     dash: leather
-     steering: leather
+    dash: leather
+    steering: leather
   - Rear:
-     seats: leather
-     footmats: Yes
-
-
-
-
-
+    seats: leather
+    footmats: true

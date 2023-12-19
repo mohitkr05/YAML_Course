@@ -9,21 +9,19 @@ car_type: sedan
 
 # Scalars
 
-vendor: audi # unquoted scalar
-make: "Q7" #Quoted scalar
- 
+vendor: audi   # unquoted scalar
+make: "Q7"   # Quoted scalar
+
 dealer_address: Some street
-  some state, 
+  some state,
   some country
 
-
-
-dealer_address2: > 
+dealer_address2: >
   Some street
-  some state, 
+  some state,
   some country
 
-dealer_address3: | 
+dealer_address3: |
   Some street
-  some state, 
+  some state,
   some country
